@@ -33,6 +33,12 @@ implementation of the system.
 
 ## 5. Add a View design of your choice
 
+I will be using the Template view pattern. My design is below:
+
+![Mod View](images/TemplateView.png)
+
+## 6. Explain why you believe this View works well with your Controller.
+
 I choose the Template pattern for a couple reasons. One being that I have already had experience using the Template pattern in both 374 and Android development,
 and so therefore I am more comfortable using it. The other reason that I picked the Template pattern had to do with simplicity. It is best if we keep the MVC
 relatively simple, and the Template pattern allows for **effective communication between the view and the controller**, which is essential for our architecture. In order
