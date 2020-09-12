@@ -14,6 +14,7 @@ I have linked my Active Record architecture from earlier in the week below.
 
 Below is my sketch for Input controller
 
+![Mod View](images/InputController.png)
 
 Below is my sketch for Input controller + Application Controller
 
