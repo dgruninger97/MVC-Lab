@@ -33,4 +33,13 @@ For the reason described above, I think it makes sense to use the **input contro
 that accomplish the same task, it is wise to choose the design with **less code**. This means the system will be less complex and require less overall work in the
 implementation of the system.
 
+### 5. Add a View design of your choice
+
+I choose the Template pattern for a couple reasons. One being that I have already had experience using the Template pattern in both 374 and Android development,
+and so therefore I am more comfortable using it. The other reason that I picked the Template pattern had to do with simplicity. It is best if we keep the MVC
+relatively simple, and the Template pattern allows for **effective communication between the view and the controller**, which is essential for our architecture. In order
+for the file controller to be able to successfully communicate with the view of the test submission, there must be clear and easy transfer of data between the
+two modules. This is why the Template pattern works; **it is built for the easy communication of data between these two modules**. This will lead to a strong
+connection between the domain and presentation layer, which overall gives us a better architecture.
+
 ## Part B - Code
