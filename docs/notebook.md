@@ -33,7 +33,7 @@ implementation of the system.
 
 ## 5. Add a View design of your choice
 
-I will be using the Template view pattern. My design is below:
+I will be using the Template view pattern. My sample design is below:
 
 ![Mod View](images/TemplateView.png)
 
