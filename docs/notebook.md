@@ -16,6 +16,10 @@ Below is my sketch for Input controller. I used another tool to better represent
 
 Below is my sketch for Input controller + Application Controller
 
+![Mod View](images/ApplicationController.png)
+
+I also added a sequence diagram as well for the application controller.
+
 ![Mod View](images/InputApplicationController.png)
 
 ## 3. Compare the sequence diagrams for the two different controller patterns for the use case’s Basic Flow.
