@@ -49,3 +49,19 @@ relatively simple, and the Template pattern allows for **effective communication
 for the file controller to be able to successfully communicate with the view of the test submission, there must be clear and easy transfer of data between the
 two modules. This is why the Template pattern works; **it is built for the easy communication of data between these two modules**. This will lead to a strong
 connection between the domain and presentation layer, which overall gives us a better architecture.
+
+
+### Try to guess how much work it would have been to do this using the other Controller choice.  Did you guess right, or not?
+
+It would have been more work to add in the application controller simply because it would not have been necessary. I believe my guess for using just the input
+controller was the correct guess.
+
+### Which Controller choice would be easier to add more use cases to?
+
+I think the input controller would be easier to add more use cases to. This is simply due to the fact that the input controller is able to handle a lot of cases
+as is, and putting in the application controller really isn't necessary to adding more use cases. The input controller already communicates well with the Model and
+View, so it can handle more use cases as is.
+
+### Did the Controller you chose allow you to do everything win the use case?
+
+Yes, I was able to address or simulate everything that was needed for the provided use case.
